@@ -1,11 +1,11 @@
 {
   "version": "1.0.0",
-  "hash": "fca1ab387f92874eec6e28e2eb7cfae2d87a1f11",
-  "shortHash": "fca1ab3",
-  "commit": "fca1ab387f92874eec6e28e2eb7cfae2d87a1f11",
-  "shortCommit": "fca1ab3",
-  "author": "Janani Venkataraman (Digital)",
-  "email": "JA354063@wipro.com",
-  "date": "Wed Dec 11 11:50:47 2019 +0530",
-  "message": "for docker purpose modified IP"
+  "hash": "27f7ef402f1f01b4ef54fc91ec79ada322e3ab18",
+  "shortHash": "27f7ef4",
+  "commit": "27f7ef402f1f01b4ef54fc91ec79ada322e3ab18",
+  "shortCommit": "27f7ef4",
+  "author": "Vidyadevi Salunkhe",
+  "email": "84471226+Vidyaaa24@users.noreply.github.com",
+  "date": "Thu Jun 8 17:11:54 2023 +0530",
+  "message": "Add files (#4)\n    \n    * Update README.md\n    \n    * Create CODE_OF_CONDUCT.md\n    \n    * Create CONTRIBUTING.md\n    \n    * Create COPYING"
 }
