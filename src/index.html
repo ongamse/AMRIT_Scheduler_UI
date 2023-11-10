@@ -5,10 +5,9 @@
   <meta charset="utf-8">
   <title>Tele Medicine Unit</title>
   <script>
-    document.write('<base href="' + document.location + '" />');
-    // window.console.log = function () { }
-    // window.console.warn = function () { }
-    // window.console.error = function () { }
+    var baseTag = document.createElement('base');
+    baseTag.href = document.location.href;
+    document.head.appendChild(baseTag);
   </script>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
