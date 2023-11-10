@@ -118,14 +118,14 @@ export class SchedulerService {
   }
 
   getSMSType() {
-    let serviceID = 9;
+    let serviceID = 4;
     return this.http
       .post(environment.getSMSTypeUrl, { serviceID: serviceID })
       .map(res => res.json());
   }
 
   getSMSParameter() {
-    let serviceID = 9;
+    let serviceID = 4;
     return this.http
       .post(environment.getSMSParameterURL, { serviceID: serviceID })
       .map(res => res.json());

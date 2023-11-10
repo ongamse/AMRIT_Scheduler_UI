@@ -101,7 +101,7 @@ export class RedirOpenComponent implements OnInit {
    
         if (res.statusCode == 200 && res.data) {
           let TMPrevilegeObj = res.data.previlegeObj.filter(previlege => {
-            if (previlege.roles[0].serviceRoleScreenMappings[0].providerServiceMapping.serviceID == '9') {
+            if (previlege.roles[0].serviceRoleScreenMappings[0].providerServiceMapping.serviceID == '4') {
               return previlege;
             }
           });
