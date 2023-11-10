@@ -88,7 +88,7 @@ export const environment = {
   getFullSMSTemplateUrl: `${COMMON_API}sms/getFullSMSTemplate`,
   saveSMSTemplateUrl: `${COMMON_API}sms/saveSMSTemplate`,
   updateSMSTemplateUrl: `${COMMON_API}sms/updateSMSTemplate`,
-  getSwymedLogoutUrl: `${TM_API}swymed/logout`,
+  getSwymedLogoutUrl: `${TM_API}videoConsultation/logout`,
   getChiefComplaintReportUrl: `${TM_API}TMReport/chiefcomplaintreport`,
   getTotalConsultationReportsUrl: `${TM_API}TMReport/TotalConsultationReport`,
   getConsultantReportUrl: `${TM_API}TMReport/ConsultationReport`,
