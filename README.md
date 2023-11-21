@@ -13,15 +13,24 @@ It acts as an interface between client and the scheduling services provided, all
 * maven
 * node 16
 
-## Build
-Build with NPM and Maven
-* run:
+## Run
 * npm install -g @angular/cli
 * npm install typescript@2.7.2 --save-dev
 * npm install
 * npm run build
 * mvn clean install
-
-## Run
 * npm start
+
+## Building from source
+
+1. To build deployable war files
+```bash
+mvn -B package --file pom.xml -P <profile_name>
+```
+
+The available profiles include dev, local, test, and ci.
+Refer to `src/environments/environment.ci.template` file and ensure that the right environment variables are set for the build.
+
+Packing with `ci` profile calls `build-ci` script in `package.json`.
+It creates a `environment.ci.ts` file with all environment variables used in the generated build.
 
